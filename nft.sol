@@ -2,7 +2,6 @@ pragma solidity 0.8.10;
 
 interface IERC721 {
     function transfer(address, uint) external;
-
     function transferFrom(
         address,
         address,
